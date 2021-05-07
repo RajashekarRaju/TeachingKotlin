@@ -1,6 +1,6 @@
 /**
  * Kotlin in Action book - Refer page 18.
- * Atomic Kotlin book - Refer page 26.
+ * Atomic Kotlin book - Refer page 35.
  *
  *
  * Difference between arguments and parameters.
