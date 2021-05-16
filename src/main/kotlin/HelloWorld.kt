@@ -13,11 +13,10 @@ class HelloWorld {
 }
 
 // Default main() function for this class.
-// This is like entry point, other functions can be invoked by calling inside this function.
-private fun main() {
+// This is like entry point, other functions can be invoked by calling inside this function. private fun main() {
 
     // Access printSomething() function from HelloWorld class
-
+private fun main(){
     // Calling functions from Class - One Way
     HelloWorld().printSomething()
 
@@ -26,7 +25,3 @@ private fun main() {
     myWorld.printSomething()
 }
 
-// Default main() function for this class with parameters.
-fun main(args: Array<String>) {
-    println("Arguments are ${args.size}")
-}
