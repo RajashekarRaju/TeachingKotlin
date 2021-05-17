@@ -6,6 +6,7 @@ package DataType
  * In Int again we have -->Byte,Short,Int,Long.......
  * In Float again we have-->Double,Float........
  */
+
 fun main(){
     //Minimum and Maximum Size of Byte
     val b1:Byte = Byte.MIN_VALUE
