@@ -1,14 +1,11 @@
 package api.student2
+
+
 class NowPlayingMovies {
     /**
      * creating a variable movieList in NowPlayingMovies class and assigning list of movies titles and id to it
      */
-    val moviesList: List<Movie> = listOf(
-        Movie("Lagan",1),
-        Movie("Brundavanam-colony",2),
-        Movie("Premikudu",3)
-
-    )
+    val moviesList: List<Movie> = fetchJsonData(movieResponse())
 }
 
 
