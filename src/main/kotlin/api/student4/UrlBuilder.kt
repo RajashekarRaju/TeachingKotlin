@@ -6,7 +6,7 @@ import java.util.*
 import javax.net.ssl.HttpsURLConnection
 import kotlin.collections.ArrayList
 
-val requestUrl = "https://api.themoviedb.org/3/movie/upcoming?api_key=d77b5ab884174f60f4c9e8f50a70d99c"
+val requestUrl = "https://api.themoviedb.org/3/movie/upcoming?api_key="
 
 fun fetchJsonData(jsonResponse: String): List<Movie> {
     val movieList: MutableList<Movie> = ArrayList()
