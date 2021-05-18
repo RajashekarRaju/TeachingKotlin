@@ -1,9 +1,11 @@
 package DataType
 
-/** DataTypes Example
-
+/**
+ * DataTypes Example
  */
+
 private fun main(){
+
     val rollNumber: Int = 45
     val nameOfTheStudent: String = "BOb"
     val phoneNumber: Long = 9792939400
