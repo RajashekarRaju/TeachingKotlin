@@ -1,14 +1,9 @@
 package api.student3
 
 class TopRatedMovies {
-   // val movie= Movie("julai")
-    val moviesList:  List<Movie> = listOf(
-       Movie("bahubali",4321),
-   Movie("ismartshenkar",4322),
-    Movie("jannu",4323)
-    )
-}
-fun main() {
+    val moviesList: List<Movie> = fetchJsonData(movieResponse())
+ }
+ private fun main() {
     val TopRatedMovies = TopRatedMovies()
     val moviesList = TopRatedMovies.moviesList
 
