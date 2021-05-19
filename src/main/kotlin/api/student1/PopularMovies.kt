@@ -4,8 +4,7 @@ package api.student1
 class PopularMovies {
 
     val moviesList: List<Movie> = listOf(
-        Movie("Ala Vaikunthapurram Lo", 1)
-    )
+        Movie("Ala Vaikunthapurram Lo", 1))
 
 }
 
