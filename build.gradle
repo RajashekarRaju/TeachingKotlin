@@ -16,6 +16,9 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
     implementation "org.json:json:20171018"
 }
+test {
+    useJUnitPlatform()
+}
 
 test {
     useJUnitPlatform()
