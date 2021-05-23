@@ -1,19 +1,18 @@
 package exceptions
 
-fun main(){
-    MultipleCatch()
-}
-fun MultipleCatch() {
-
-        try {
-            val a: Int = Integer.parseInt(readLine())
-            val b: Int = Integer.parseInt(readLine())
-            println("The Division of $a and $b is: ${a/b}")
-        }catch (exception: NumberFormatException){
-            println("Numbers entered are invalid!!")
-        }catch (exception: ArithmeticException){
-            println("Divided by zero!!")
-        }
-
+fun main() {
+    try {
+        val a: Int = Integer.parseInt(readLine())
+        val b: Int = Integer.parseInt(readLine())
+        println("The Division of $a and $b is: ${a / b}")
+    } catch (exception: NumberFormatException) {
+        println("Numbers entered are invalid!!")
+    } catch (exception: ArithmeticException) {
+        println("Divided by zero!!")
+    }
 
 }
+
+
+
+

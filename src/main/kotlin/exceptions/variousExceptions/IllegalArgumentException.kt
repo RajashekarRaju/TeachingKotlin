@@ -1,5 +1,4 @@
-package exceptions
-
+package exceptions.variousExceptions
 
 fun age(age:Int){
     if(age<0){
