@@ -1,6 +1,8 @@
 package exceptions
 
-fun ArithmeticException() {
+
+
+fun main() {
     //val i=10/0
     try{
         val i = 10/0
@@ -8,7 +10,4 @@ fun ArithmeticException() {
     }catch (e:ArithmeticException){
         println("Number cannot be divided by zero")
     }
-}
-fun main() {
-    ArithmeticException()
 }
