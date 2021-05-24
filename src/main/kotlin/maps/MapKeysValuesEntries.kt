@@ -3,14 +3,14 @@ package maps
 fun main() {
 
     // declaring a map of integer to string
-    val map = mapOf(10 to "Shaik", 20 to "Sulthan", 30 to "Shiva", 40 to "Sravanthi")
+    val states = mapOf(1 to "Andhra Pradesh", 2 to "Karnataka", 3 to "Kerala")
 
     // declaring all entries
-    println("Map Entries : "+map)
+    println("State Entries :" +states)
 
     // declaring keys
-    println("Map Keys : "+map.keys)
+    println("State Keys :" +states.keys)
 
     // declaring values
-    println("Map Values : "+map.values)
+    println("State Values :" +states.values)
 }
