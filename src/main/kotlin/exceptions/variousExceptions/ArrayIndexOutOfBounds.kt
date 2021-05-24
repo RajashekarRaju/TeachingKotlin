@@ -1,6 +1,7 @@
 package exceptions
 
-fun ArrayIndexOutOfBounds() {
+
+fun main() {
     var list = listOf(1,2,3)
     //println(list[4])
     try{
@@ -8,7 +9,4 @@ fun ArrayIndexOutOfBounds() {
     }catch (e:ArrayIndexOutOfBoundsException){
         println(e)
     }
-}
-fun main() {
-    ArrayIndexOutOfBounds()
 }
