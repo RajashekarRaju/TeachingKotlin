@@ -1,5 +1,8 @@
 package sets
 
+/**
+ * Fuctions in Set
+ */
 fun main() {
     val numberSet = setOf(2,4,6,8,10,12)
     val integerSet = setOf(4,8,12,16,20)
