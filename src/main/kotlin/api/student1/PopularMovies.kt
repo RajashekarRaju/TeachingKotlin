@@ -1,16 +1,20 @@
 package api.student1
 
+import fetchJsonData
+import movieResponse
+
 
 class PopularMovies {
 
-    val moviesList: List<Movie> = listOf(
-        Movie("Ala Vaikunthapurram Lo", 1))
+    val moviesList: List<Movie> = fetchJsonData(movieResponse())
 
 }
 
-private fun main() {
-    val popularMovies = PopularMovies()
-    val moviesList = popularMovies.moviesList
+fun main() {
+
+    val PopularMovies = PopularMovies()
+    val moviesList = PopularMovies.moviesList
+
     moviesList.forEach {
         val titleOfTheMovie = it.title
         val idOfTheMovie = it.movieId
